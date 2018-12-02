@@ -22,7 +22,7 @@ const app = new mixer(session({
   }
 }))
 
-app.mix(() => 'cors is mixed!').listen(3000)
+app.mix(() => 'session is mixed!').listen(3000)
 ```
 
 ## ToDo
