@@ -28,7 +28,6 @@ app.mix(() => 'session is mixed!').listen(3000)
 ## ToDo
 勉強中
 - ちゃんとしたUUID生成
-- 暗号化/復号化
 - ファイル化
 - 適切なエラーハンドリング
 - テスト
