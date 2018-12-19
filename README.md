@@ -6,6 +6,7 @@ Minimal session storage for mixer https://github.com/imatomix/mixer
 
 ## Overview
 セッションの作成と管理。
+- セッションに保存されるデータは暗号化される。
 
 ## Usage
 
@@ -28,7 +29,7 @@ app.mix(() => 'session is mixed!').listen(3000)
 ## ToDo
 勉強中
 - ちゃんとしたUUID生成
-- ファイル化
+- メモリ以外へのストア
 - 適切なエラーハンドリング
 - テスト
 
